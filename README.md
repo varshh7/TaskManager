@@ -17,15 +17,6 @@ Task Manager/
 │   └── requirements.txt # frontend Python dependencies
 └── README.md
 ```
-
----
-
-## What Changed
-
-- Removed the unused Streamlit `pages/` router folder.
-- Consolidated the frontend flow entirely in `frontend/app.py`.
-- The app now runs from a single Streamlit entrypoint.
-
 ---
 
 ## Key Concepts Covered
