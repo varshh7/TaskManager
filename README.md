@@ -103,9 +103,3 @@ streamlit run app.py
 
 ---
 
-## Next Improvements
-
-- Add a refresh-token flow for longer sessions.
-- Add task due date and priority filtering in the backend.
-- Use a dedicated frontend state management component or custom Streamlit widgets.
-- Add multi-user task sharing and role-based permissions.
