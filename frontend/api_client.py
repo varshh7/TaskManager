@@ -5,7 +5,8 @@ All HTTP calls live here so the Streamlit pages stay clean.
 import requests
 import streamlit as st
 
-BASE_URL = "http://localhost:8000"
+import os
+BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────

@@ -17,15 +17,6 @@ Task Manager/
 │   └── requirements.txt # frontend Python dependencies
 └── README.md
 ```
-
----
-
-## What Changed
-
-- Removed the unused Streamlit `pages/` router folder.
-- Consolidated the frontend flow entirely in `frontend/app.py`.
-- The app now runs from a single Streamlit entrypoint.
-
 ---
 
 ## Key Concepts Covered
@@ -112,9 +103,3 @@ streamlit run app.py
 
 ---
 
-## Next Improvements
-
-- Add a refresh-token flow for longer sessions.
-- Add task due date and priority filtering in the backend.
-- Use a dedicated frontend state management component or custom Streamlit widgets.
-- Add multi-user task sharing and role-based permissions.
